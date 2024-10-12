@@ -1,0 +1,203 @@
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+    .headerSection{
+        height:auto;
+    }
+    .headerSection .logo{
+        width: 40px;
+    }
+    .headerSection .navbar h2{
+        font-size: 18px;
+    }
+    .bottomHeader h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .bottomHeader p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .bottomHeader .leftHeading{
+      padding-top: 60px;
+      padding-bottom: 20px;
+      padding-left: 60px;
+      padding-right: 0;
+    }
+    .bottomHeader .rightHeading{
+        padding-top: 40px;
+    }
+    .bottomHeader .rightHeading img{
+        width: 300px;
+        margin: auto;
+    }
+    .section1 {
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .section1 .col-md-3{
+        margin-bottom: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .section2 {
+        margin-bottom:20px;
+    }
+    .section2 h2{
+        font-size: 26px;
+    }
+    .section2 .col-md-4{
+        margin-top: 40px;
+        width:300px;
+        height: 483px;
+        text-align: center;
+    }
+    .section2 .col-md-4 .iconGrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section2 .col-md-4 .firstImg{
+        max-width: 250px;
+        width: auto;
+        height: 200px;
+    }
+    .section2 .col-md-4 h3{
+        font-size: 20px;
+    }
+    .section2 .col-md-4 button{
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .section3 .col-md-12 .imgGrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3 .row h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .section3 .col-md-12 .imgGrp img{
+        width: 120px;
+        height: 120px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .section3 .col-md-12 .imgGrp p{
+        font-size: 14px;
+        text-align: center;
+        padding: 25px;    
+    }
+    .footerSection .col-md-6 p{
+        margin-left: 0;
+        font-size: 14px;
+        margin-bottom: 50px;     
+    }
+    .footerSection .col-md-2{
+        text-align: center;
+        margin-bottom: 25px;
+        background: #635353;
+    }
+    .footerSection .col-md-2 h5{
+        font-size: 16px;
+    }
+    .footerSection .col-md-2 p{
+        font-size: 14px;
+    }
+    .footerSection .copyright{
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+/* mobile potraits and landscape */
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    .bottomHeader h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .bottomHeader p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .bottomHeader .leftHeading{
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left: 60px;
+      padding-right: 0;
+    }
+    .bottomHeader .rightHeading{
+        padding-top: 40px;
+    }
+    .bottomHeader .rightHeading img{
+        width: 300px;
+        margin: auto;
+    }
+    .section1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .section1 .col-md-3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+        height: 270px;
+        /* background: red; */
+        margin-left: 30px;
+    }
+    .section2 h2{
+        font-size: 30px;
+    }
+    .section2 .col-md-4{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        width:340px;
+        height: 483px;
+        text-align: center;
+    }
+    .section2 .col-md-4 .firstImg{
+        max-width: 300px;
+        width: auto;
+        height: 200px;
+    }
+      .section3 .col-md-12 .imgGrp{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 .row h2{
+        font-size: 28px;
+    }
+    .section3 .col-md-12 .imgGrp img{
+        width: 120px;
+        height: 120px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+    .section3 .col-md-12 .imgGrp p{
+        font-size: 14px;
+        text-align: center;
+        padding: 25px;    
+    }
+    .footerSection .col-md-6 p{
+        margin-left: 10px;
+        font-size: 14px;    
+    }
+    .footerSection .col-md-2{
+         text-align: center;
+         padding-right: 0px;
+         padding-left: 5px;
+         border-left: 2px solid #fff;
+    }
+    .footerSection .col-md-2 h5{
+        font-size: 22px;
+    }
+}
